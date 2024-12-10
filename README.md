@@ -1,21 +1,14 @@
-# Hangman Game 🎮
-<p>
-A text-based Hangman game built in Python that offers a fun and challenging experience. The program selects a random word, and the player guesses one letter at a time to uncover the word. With a limited number of incorrect guesses allowed, players must rely on their wits to win!
+#Hangman Game 🎮
+<pre>A fun and interactive text-based Hangman game built in Python! Guess the letters, uncover the word, and enjoy the challenge with limited attempts.
 
-Features
-Random Word Selection: The game randomly selects a word from a diverse list of exciting options.
-Interactive Gameplay: Players guess one letter at a time, and the game updates the word in real-time.
-Limited Chances: Players are given 5 chances to guess the word correctly, making the game thrilling and challenging.
-Clear Feedback: The game provides instant feedback on each guess, showing the updated word or remaining chances.
-Replay Option: Once the game ends, players can choose to play again or exit.
-How to Play
+<h2>Features</h2>
+Random Words: Diverse list of words for every game.
+Interactive Gameplay: Real-time word updates for correct guesses.
+Limited Chances: Only 5 incorrect guesses allowed.
+Replay Option: Play again or exit after each game.
+<h2>How to Play</h2>
 Run the Python script.
-A random word will be selected, and its letters will be hidden as underscores (_).
-Guess one letter at a time.
-Correct guesses reveal the letter in the word.
-Incorrect guesses reduce the remaining chances.
-Continue guessing until:
-The word is fully uncovered, you win! 🎉
-Or, you run out of chances, you lose. 😔
-At the end of the game, choose whether to replay or exit.
-</p>
+Guess letters to uncover the hidden word (_ _ _ _ _).
+Win by revealing all letters or lose if chances run out.
+Replay or exit at the end of the game.
+</pre>
