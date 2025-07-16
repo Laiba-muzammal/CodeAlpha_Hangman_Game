@@ -1,15 +1,56 @@
-# Hangman Game 🎮
-<pre>A fun and interactive text-based Hangman game built in Python! Guess the letters, uncover the word, and enjoy the challenge with limited attempts.
+# 🕹 Hangman Game (CLI)
 
-<h2>Features</h2>
-Random Words: Diverse list of words for every game.
-Interactive Gameplay: Real-time word updates for correct guesses.
-Limited Chances: Only 5 incorrect guesses allowed.
-Replay Option: Play again or exit after each game.
-  
-<h2>How to Play</h2>
-Run the Python script.
-Guess letters to uncover the hidden word (_ _ _ _ _).
-Win by revealing all letters or lose if chances run out.
-Replay or exit at the end of the game.
-</pre>
+A fun and simple terminal-based Hangman game written in Python.
+
+---
+
+## 🎯 Features
+
+- Random word selection from a preset list
+- 5 chances per game
+- Tracks correct guesses and shows partial word
+- Ends with a win/loss message
+- Option to replay
+
+---
+
+## 🧠 How It Works
+
+1. A word is randomly picked.
+2. You guess one letter at a time.
+3. Each incorrect guess reduces your chances.
+4. You win if you guess all letters before chances end.
+
+---
+
+## 🗂 Project Structure
+
+```bash
+hangman_game/
+├── game.py # Main game logic
+├── main.py # Control loop for replays
+└── README.md # Documentation
+```
+
+## 🚀 Run Instructions
+
+```bash
+python main.py
+```
+
+---
+
+### 🖼 Example Output
+```
+Welcome To Our Hangman Game
+
+Guess the word: _ _ _ _ _ _ _
+
+Enter a letter: a
+Correct Guess!
+Updated Word: _ a _ _ _ _ _
+
+...
+
+🎉 Congratulations!!! You won 🎉
+```
